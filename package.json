@@ -8,6 +8,10 @@
     "hono": "^4.12.23",
     "pg": "^8.21.0"
   },
+  "scripts": {
+    "build": "bun install",
+    "postinstall": "bunx --bun prisma generate"
+  },
   "devDependencies": {
     "@types/node": "^20.11.17",
     "@types/pg": "^8.20.0",
